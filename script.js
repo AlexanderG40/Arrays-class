@@ -29,7 +29,7 @@ function updateFlashCard(){
     }
     else {
         //If the card is not flipped show the question
-        card.textContent = flashcards[currentCard].questions;
+        card.textContent = flashcards[currentCard].question;
     }
 }
 
